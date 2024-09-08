@@ -11,7 +11,7 @@ firebase_admin.initialize_app(cred)
 db = firestore.client()
 
 # YouTube API setup
-dev = "AIzaSyDO3A8s0tnHPQmNMqvl0BeIRoe9ZMnphHE"
+dev = "enter key"
 api_service_name = "youtube"
 api_version = "v3"
 DEVELOPER_KEY = dev
