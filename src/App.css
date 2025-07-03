@@ -1,0 +1,27 @@
+/* Reset body margin to let widget stretch */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Force TradingView container full width */
+.tradingview-widget-container {
+  width: 50vw !important;
+  max-width: 100vw !important;
+  overflow-x: hidden;
+}
+
+.tradingview-widget-container__widget {
+  width: 100vw !important;
+  max-width: 100vw !important;
+}
+
+Align TradingView widget to the right
+.tradingview-widget-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-with-sidebar {
+  margin-left: 220px;
+}
